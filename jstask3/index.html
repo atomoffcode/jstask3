@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #amount,#per,#month,#btn{
+            display: block;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <input id="amount" type="text">
+        <input id="per" type="text">
+        <select name="aylar" id="month">
+            <option value="12">12</option>
+            <option value="24">24</option>
+            <option value="36">36</option>
+            <option value="48">48</option>
+        </select>
+        <input onclick="CredCalc()" type="button" id="btn" value="Calculate">
+    </form>
+    <h1 id="meb">Mebleg: <span id="mebl"></span></h1>
+    <h1 id="ayliq">Ayliq: <span id="aylq"></span></h1>
+    
+    <script src="script.js"></script>
+</body>
+</html>
