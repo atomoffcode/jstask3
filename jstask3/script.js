@@ -17,10 +17,10 @@ function CredCalc(){
                 document.getElementById('aylq').innerText = ((x*(1+(y/100)))/z).toFixed(2)
             }
             else{
-                alert('Duzgun mebleg daxil edin (max 30)')
+                alert('Duzgun faiz deyeri daxil edin (max 30)')
             }
         }else{
-            alert('Duzgun faiz deyeri daxil edin (max 500000)')
+            alert('Duzgun mebleg daxil edin (max 500000)')
         }
         
     }else{
